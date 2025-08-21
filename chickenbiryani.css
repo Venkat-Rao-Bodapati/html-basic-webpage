@@ -1,0 +1,56 @@
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:5px double black;
+    width:40vw;
+}
+img
+{
+    height:10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3vw;
+}
+.mheading
+{
+    color: orange;
+}
+button
+{
+    background-color: green;
+    color: aliceblue;
+    padding: 10px 5px;
+}
+button:hover
+{
+    background-color:orange;
+}
+.button
+{
+    padding-bottom: 10px;
+    margin-top:-20px;
+}
+@media(max-width:768px)
+{
+    .main
+    {
+       width:auto;
+    }
+    img
+    {
+        height:150px;
+    }
+}
