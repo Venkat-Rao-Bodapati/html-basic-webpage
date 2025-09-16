@@ -1,4 +1,5 @@
 function msg()
 {
-    alert("call for order:\nvishnu:9542047613\nhari:9390693605");
+    alert("sorry we will upload the next page soon");
+
 }
